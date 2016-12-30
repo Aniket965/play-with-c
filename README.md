@@ -1,2 +1,2 @@
 # play-with-c
-website for learning c for gaming in fun way 
+website for learning c language and start loving programming

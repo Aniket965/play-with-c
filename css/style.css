@@ -258,7 +258,9 @@ background-color:#d3ed0e;
 z-index: -2;
 
 }
-
+.game{
+	overflow: hidden;
+}
 .bwb {
 	display: block;
 	margin-top: 100vh;
@@ -287,4 +289,86 @@ z-index: -2;
 	display: block;
 	color: black;
 	text-decoration: none;
+}
+
+.games {
+	width: 60vw;
+	height: 37.5vw;
+	display: block;
+  opacity: 0.8;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10vh;
+	margin-bottom: 15vh;
+	transition: opacity 1s ease-in-out;
+	box-shadow: 0px 20px 40px -10px;
+
+}
+.games-paddle {
+	width: 60vw;
+
+	box-shadow: 0px 40px 40px 0px;;
+	height: 30.5vw;
+	display: block;
+  opacity: 0.8;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10vh;
+	margin-bottom: 15vh;
+	transition: opacity 1s ease-in-out;
+
+
+}
+.games-paddle:hover{
+opacity: 1;
+}
+.games:hover{
+opacity: 1;
+}
+.game-box-effect{
+display: block;
+	width: inherit;
+	height: inherit;
+}
+
+.game-title-paddle{
+
+	color:white;
+	font-family: 'Indie Flower', cursive;
+	bottom: 50%;
+	position: relative;
+	margin-left: -13vw;
+	/*background-color: pink;*/
+	display: block;
+	width: 26vw;
+	left: 60%;
+	font-size: 5vw;
+	cursor: pointer;
+	opacity: 1!important;
+
+	transition: box-shadow 1s ease-in;
+
+}
+.game-title-paddle:hover {
+box-shadow: 10px 10px 40px -10px black;
+}
+.game-title{
+color: black;
+font-family: 'Indie Flower', cursive;
+bottom: 50%;
+position: relative;
+margin-left: -13vw;
+/*background-color: pink;*/
+display: block;
+width: 26vw;
+left: 50%;
+font-size: 5vw;
+cursor: pointer;
+opacity: 1!important;
+transition: box-shadow 1s ease-in;
+}
+.game-title:hover{
+
+box-shadow: 10px 10px 40px -10px;
+
 }
